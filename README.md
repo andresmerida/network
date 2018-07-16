@@ -13,4 +13,4 @@ We can make a set of connections. For example we can connect 1-2, 1-6, 6-2, 2-4,
   - JDK 1.7 or later
   
 ## Solution
-You can take a look the NetworkTest.java class and Network.java classes 
+You can take a look the **NetworkTest.java** and **Network.java** classes 
