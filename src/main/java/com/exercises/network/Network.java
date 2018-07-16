@@ -9,6 +9,10 @@ public class Network {
     private final HashMap<Integer, Set<Integer>> adjacencyMap;
 
     public Network(int numberOfElements) {
+        if (numberOfElements < 0) {
+            throw new IllegalArgumentException("the argument numberOfElements should be positive integer value.");
+        }
+
         this.adjacencyMap = new HashMap<>();
         for (int i = 0; i < numberOfElements; i++) {
             this.addVertex(i+1);
